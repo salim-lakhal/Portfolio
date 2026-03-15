@@ -26,7 +26,9 @@ const HeroSection = React.memo(() => {
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 8000,
+      startDelay: 0,
       loop: true,
+      showCursor: true,
     });
   };
 

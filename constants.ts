@@ -26,8 +26,8 @@ export const MENULINKS = [
 
 export const TYPED_STRINGS = [
   "Software Engineer",
-  "Full-Stack Developer",
   "Product Builder",
+  "Full-Stack Developer",
   "AI & Data Engineer",
 ];
 
