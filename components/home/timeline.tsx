@@ -509,11 +509,10 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
     >
       {renderSectionTitle()}
       <div className="grid grid-cols-12 gap-4 mt-20">
-        <div className="col-span-12 md:col-span-6 line-svg" ref={svgContainer}>
+        <div className="col-span-12 md:col-span-8 line-svg" ref={svgContainer}>
           {renderSVG()}
         </div>
-        <div className="col-span-12 md:col-span-6 md:flex hidden">
-          {renderSlides()}
+        <div className="col-span-12 md:col-span-4 md:flex hidden" ref={screenContainer}>
         </div>
       </div>
     </section>
