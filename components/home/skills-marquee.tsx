@@ -63,11 +63,8 @@ const MarqueeRow = ({ items, direction }: MarqueeRowProps) => {
   const doubled = [...items, ...items];
 
   return (
-    <div className="flex overflow-hidden">
-      <div
-        className={`flex gap-4 ${animationClass}`}
-        style={{ willChange: "transform" }}
-      >
+    <div className="overflow-hidden w-full">
+      <div className={`flex gap-4 w-max ${animationClass}`}>
         {doubled.map((item, i) => (
           <Tag key={`${item.label}-${i}`} label={item.label} type={item.type} />
         ))}
@@ -78,17 +75,16 @@ const MarqueeRow = ({ items, direction }: MarqueeRowProps) => {
 
 const SkillsMarquee = React.memo(() => {
   return (
-    <section className="w-full py-12 bg-gray-900 relative overflow-hidden">
-      <div
-        className="absolute inset-y-0 left-0 right-0 pointer-events-none z-10"
-        style={{
-          maskImage:
-            "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
-          WebkitMaskImage:
-            "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
-        }}
-      />
-      <div className="flex flex-col gap-4">
+    <section
+      className="w-full py-16 relative"
+      style={{
+        maskImage:
+          "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",
+        WebkitMaskImage:
+          "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",
+      }}
+    >
+      <div className="flex flex-col gap-5">
         <MarqueeRow items={ROW_ONE} direction="left" />
         <MarqueeRow items={ROW_TWO} direction="right" />
       </div>
