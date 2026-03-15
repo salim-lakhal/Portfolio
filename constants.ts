@@ -50,6 +50,15 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
+    name: "Meridiane",
+    image: "/projects/meridiane.svg",
+    blurImage: "/projects/blur/meridiane-blur.svg",
+    description: "AI assistant helping international students navigate French admin — visa, CAF, Ameli. Live at meridiane.fr",
+    gradient: ["#1a365d", "#2b6cb0"],
+    url: "https://meridiane.fr",
+    tech: ["react", "typescript", "javascript"],
+  },
+  {
     name: "ZKP Decentralized Storage",
     image: "/projects/zkp-storage.svg",
     blurImage: "/projects/blur/zkp-storage-blur.svg",
@@ -146,6 +155,15 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Experience",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Meridiane — Founder & Developer (2025 – Present)",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Built and launched meridiane.fr — an AI-powered platform helping international students in France navigate administrative procedures (visa, CAF, Ameli, residence permits). React, Supabase, Stripe, AI chatbot. Live product with paying users.",
+    shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
   {
