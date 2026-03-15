@@ -163,6 +163,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Founded and shipped meridiane.fr in 5 days — solo, by orchestrating specialized AI agent teams via Claude Code. Managed 20+ subagents across frontend, backend, SEO, security pentesting, and infrastructure. Knowledge graph (GraphRAG), AI chatbot, document verification, Stripe billing. Full context engineering and agentic workflow orchestration from architecture to production. Live with paying users.",
+    image: "/timeline/meridiane.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -276,6 +277,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Won the 4th edition of the Hi! PARIS data science hackathon. Competing against teams from Polytechnique, HEC, ENSAE, and other top French schools. Hi! PARIS is a joint research center between HEC Paris and Institut Polytechnique de Paris.",
+    image: "/timeline/hiparis.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
