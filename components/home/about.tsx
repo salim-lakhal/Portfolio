@@ -35,8 +35,9 @@ const AboutSection = () => {
       ref={targetSection}
     >
       <p className="text-2xl md:text-3xl font-medium text-gray-300 max-w-3xl leading-relaxed">
-        Software engineering student at TELECOM SudParis, Paris.{" "}
-        I build distributed systems, blockchain protocols, ML pipelines, and full-stack web apps.
+        Software engineer who ships fast. I orchestrate teams of AI agents to build
+        full-stack products — from GraphRAG pipelines to blockchain protocols.
+        Shipped a SaaS with 14 edge functions, knowledge graphs, and Stripe billing in 5 days.
       </p>
     </section>
   );

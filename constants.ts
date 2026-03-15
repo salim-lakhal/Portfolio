@@ -25,10 +25,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
+  "I ship products with AI agents",
   "I build distributed systems",
   "I design blockchain protocols",
-  "I develop full-stack web apps",
-  "I engineer ML pipelines",
+  "I orchestrate agentic workflows",
 ];
 
 export const EMAIL = "salim.lakhal@telecom-sudparis.eu";
@@ -53,10 +53,10 @@ export const PROJECTS: IProject[] = [
     name: "Meridiane",
     image: "/projects/meridiane.svg",
     blurImage: "/projects/blur/meridiane-blur.svg",
-    description: "AI assistant for international students in France — knowledge graph, RAG, Stripe billing. Live at meridiane.fr",
+    description: "Full SaaS shipped in 5 days — GraphRAG knowledge graph, Vision AI doc verification, Stripe billing. Live at meridiane.fr",
     gradient: ["#1a365d", "#2b6cb0"],
     url: "https://meridiane.fr",
-    tech: ["react", "typescript", "javascript"],
+    tech: ["react", "typescript", "python"],
   },
   {
     name: "ZKP Decentralized Storage",
@@ -159,10 +159,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Meridiane — Founder & Developer (2025 – Present)",
+    title: "Meridiane — Founder & Solo Builder (2025 – Present)",
     size: ItemSize.SMALL,
     subtitle:
-      "Built and launched meridiane.fr — an AI-powered platform helping international students navigate French admin (visa, CAF, Ameli). Knowledge graph for procedure mapping, RAG pipeline for document Q&A, Stripe billing, i18n. React, Supabase, deployed with real users.",
+      "Shipped a full SaaS in 5 days by orchestrating 20+ specialized AI agents via Claude Code. GraphRAG knowledge graph (249 docs, LightRAG, Qdrant), Vision AI document verification (Pixtral), Mistral Small chat pipeline, Stripe subscriptions, 14 Supabase edge functions, i18n, Shannon AI pentesting. React + TypeScript, 26 custom hooks, 40+ components. Live at meridiane.fr with paying users.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
