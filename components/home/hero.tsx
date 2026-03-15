@@ -75,8 +75,14 @@ const HeroSection = React.memo(() => {
       <p className="mb-4">
         <span className={HERO_STYLES.TYPED_SPAN} ref={typedSpanElement}></span>
       </p>
-      <p className="text-sm sm:text-base text-gray-400 seq mb-8">
-        Looking for a full-time position in software engineering, product, or AI — open to any location.
+      <p className="text-sm sm:text-base seq mb-8">
+        <span className="text-gray-500">Open to </span>
+        <span className="text-gray-300">Software Engineering</span>
+        <span className="text-gray-500"> · </span>
+        <span className="text-gray-300">Product Management</span>
+        <span className="text-gray-500"> · </span>
+        <span className="text-gray-300">AI / Data</span>
+        <span className="text-gray-500"> roles — anywhere.</span>
       </p>
       <div className="flex seq mb-8">{renderSocialLinks()}</div>
       <div className="flex seq">
