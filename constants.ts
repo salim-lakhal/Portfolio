@@ -53,7 +53,7 @@ export const PROJECTS: IProject[] = [
     name: "Meridiane",
     image: "/projects/meridiane.svg",
     blurImage: "/projects/blur/meridiane-blur.svg",
-    description: "AI assistant helping international students navigate French admin — visa, CAF, Ameli. Live at meridiane.fr",
+    description: "AI assistant for international students in France — knowledge graph, RAG, Stripe billing. Live at meridiane.fr",
     gradient: ["#1a365d", "#2b6cb0"],
     url: "https://meridiane.fr",
     tech: ["react", "typescript", "javascript"],
@@ -162,7 +162,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Meridiane — Founder & Developer (2025 – Present)",
     size: ItemSize.SMALL,
     subtitle:
-      "Built and launched meridiane.fr — an AI-powered platform helping international students in France navigate administrative procedures (visa, CAF, Ameli, residence permits). React, Supabase, Stripe, AI chatbot. Live product with paying users.",
+      "Built and launched meridiane.fr — an AI-powered platform helping international students navigate French admin (visa, CAF, Ameli). Knowledge graph for procedure mapping, RAG pipeline for document Q&A, Stripe billing, i18n. React, Supabase, deployed with real users.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
