@@ -186,7 +186,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Software Engineering Intern — XRPL Commons (Jun – Jul 2024)",
+    title: "Developer Intern — XRPL Commons (Jun – Jul 2024)",
     size: ItemSize.SMALL,
     subtitle:
       "Built a full-stack educational platform from scratch with Nuxt.js, MongoDB, and Vue.js. Integrated XRP Ledger for Web3 features. Implemented secure user authentication and role-based access. Shipped to production within 2 months.",
