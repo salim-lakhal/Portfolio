@@ -233,7 +233,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "AMD Open Robotics Hackathon — Paris (Dec 2025)",
     size: ItemSize.SMALL,
     subtitle:
-      "3-day hackathon with AMD and Hugging Face. Trained SO-101 robotic arms to automate manual tasks using the LeRobot framework and SmolVLA vision-language-action models. Collected training data, fine-tuned policies on AMD Ryzen AI laptops and MI300X GPUs, deployed on physical robots. $10K prize pool, teams of 4.",
+      "3-day hackathon with AMD and Hugging Face. Trained SO-101 robotic arms to automate manual tasks using the LeRobot framework and SmolVLA vision-language-action models. Collected training data, fine-tuned policies on AMD Ryzen AI laptops and MI300X GPUs, deployed on physical robots. Teams of 4.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -242,7 +242,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Paris AI Hackathon @ Station F — Endexa (Nov 2025)",
     size: ItemSize.SMALL,
     subtitle:
-      "Built Endexa at Station F — a GEO (Generative Engine Optimization) analytics platform. Analyzes how well websites are represented by AI models like ChatGPT, Claude, Perplexity, and Gemini. Scores websites 0-100 across 61 criteria with actionable recommendations. Python + FastAPI backend, React frontend, Redis caching. Built and demoed in one day. €10K prize pool.",
+      "Built Endexa at Station F — a GEO (Generative Engine Optimization) analytics platform. Analyzes how well websites are represented by AI models like ChatGPT, Claude, Perplexity, and Gemini. Scores websites 0-100 across 61 criteria with actionable recommendations. Python + FastAPI backend, React frontend, Redis caching. Built and demoed in one day.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
