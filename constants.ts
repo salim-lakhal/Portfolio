@@ -211,12 +211,39 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
-  // ── ACHIEVEMENTS ──
+  // ── HACKATHONS & ACHIEVEMENTS ──
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Achievements",
+    title: "Hackathons & Achievements",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Paris Innov'Hack — Bistro Table AI (Jan 2026)",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Built an AI-powered 3D menu platform for restaurants in 10 hours. Interactive 3D food visualization with animated presentations. TypeScript, React, Supabase.",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "AMD Open Robotics Hackathon — Paris (Dec 2025)",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Trained SO-101 robots to perform useful manual tasks using Hugging Face LeRobot and SmolVLA models on AMD Ryzen AI hardware. Built practical automation use cases for real-world manipulation problems. Sponsored by AMD, Hugging Face, and Data Monsters.",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Paris AI Hackathon @ Station F — Endexa (Nov 2025)",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Built Endexa, a Generative Engine Optimization platform that scores websites 0-100 across 61 criteria for AI discoverability (ChatGPT, Claude, Perplexity, Gemini). Python backend, React frontend. Built at Station F in one day.",
+    shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
   {
