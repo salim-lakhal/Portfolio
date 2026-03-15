@@ -396,31 +396,10 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
     let end: string;
     let additionalConfig = {};
 
-    // Slide as a trigger for Desktop
-    if (isDesktop && !isSmallScreen()) {
-      // Animation for right side slides
-      setSlidesAnimation(timeline);
-
-      const platformHeight =
-        screenContainer.current.getBoundingClientRect().height;
-
-      trigger = screenContainer.current;
-      start = `top ${(window.innerHeight - platformHeight) / 2}`;
-      end = `+=${svgLength - platformHeight}`;
-      additionalConfig = {
-        pin: true,
-        pinSpacing: true,
-      };
-      duration = timeline.totalDuration() / svgCheckpointItems.length;
-    } else {
-      // Clearing out the right side on mobile devices
-      screenContainer.current.innerHTML = "";
-
-      trigger = svgContainer.current;
-      start = "top center";
-      end = `+=${svgLength}`;
-      duration = 3;
-    }
+    trigger = svgContainer.current;
+    start = "top center";
+    end = `+=${svgLength}`;
+    duration = 3;
 
     ScrollTrigger.create({
       ...additionalConfig,
