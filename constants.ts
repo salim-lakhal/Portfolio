@@ -25,10 +25,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I build products that ship",
-  "I solve hard engineering problems",
-  "I scale systems end to end",
-  "I turn ideas into production",
+  "Software Engineer",
+  "Full-Stack Developer",
+  "Product Builder",
+  "AI & Data Engineer",
 ];
 
 export const EMAIL = "salim.lakhal@telecom-sudparis.eu";
