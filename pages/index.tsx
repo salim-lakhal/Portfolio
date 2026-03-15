@@ -35,9 +35,7 @@ export default function Home() {
   const debouncedDimensionCalculator = () => {
     clearTimeout(timer);
     timer = setTimeout(() => {
-      const isDesktopResult =
-        typeof window.orientation === "undefined" &&
-        navigator.userAgent.indexOf("IEMobile") === -1;
+      const isDesktopResult = window.innerWidth >= 768;
 
       window.history.scrollRestoration = "manual";
 
