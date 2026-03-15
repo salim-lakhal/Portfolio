@@ -172,6 +172,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Completed the 4-day B2C Commerce Developer with SFRA training at Louis Vuitton. Salesforce Commerce Cloud certification.",
+    image: "/timeline/salesforce.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -181,6 +182,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Product ownership at LVMH's flagship maison in Paris. Defining product roadmap, writing user stories, coordinating with dev teams, designers, and stakeholders. Managing sprint planning and backlog prioritization across cross-functional squads.",
+    image: "/timeline/lv.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -190,6 +192,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Full-stack development for a blockchain organization. Built and shipped production features using Nuxt.js, Vue.js, and the XRP Ledger. Handled the full lifecycle: architecture, development, testing, deployment, and performance optimization.",
+    image: "/timeline/xrpl.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -199,6 +202,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Built a full-stack educational platform from scratch with Nuxt.js, MongoDB, and Vue.js. Integrated XRP Ledger for Web3 features. Implemented secure user authentication and role-based access. Shipped to production within 2 months.",
+    image: "/timeline/xrpl.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -243,6 +247,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "3-day hackathon with AMD and Hugging Face. Trained SO-101 robotic arms to automate manual tasks using the LeRobot framework and SmolVLA vision-language-action models. Collected training data, fine-tuned policies on AMD Ryzen AI laptops and MI300X GPUs, deployed on physical robots. Teams of 4.",
+    image: "/timeline/amd.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -252,6 +257,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Built Endexa at Station F in one day — a GEO analytics platform that scores websites for AI discoverability across ChatGPT, Claude, Perplexity, and Gemini. 61 scoring criteria with actionable recommendations. Shipped by orchestrating parallel AI agent teams handling backend (FastAPI, Redis), frontend (React), and data pipeline simultaneously.",
+    image: "/timeline/stationf.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -279,6 +285,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Built a seismic event detection system for planetary data. Filtered noise from Mars InSight and Apollo seismic data using FFT. Trained an ML model on spectrograms to detect moonquakes and marsquakes.",
+    image: "/timeline/nasa.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -296,6 +303,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Engineering degree. Systems programming, computer networks, distributed systems, probability theory, and project management. Part of the Institut Polytechnique de Paris alongside Ecole Polytechnique and ENSTA.",
+    image: "/timeline/telecom.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
