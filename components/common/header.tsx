@@ -7,9 +7,9 @@ const Header = () => {
 
   return (
     <header className="w-full fixed top-0 py-8 select-none z-50 bg-gradient-to-b from-gray-900 to-transparent">
-      <div className="flex justify-between section-container">
-        <a href="#home" className="link text-white font-bold text-lg tracking-tight hover:opacity-80 transition-opacity">
-          SL
+      <div className="flex justify-between items-center section-container">
+        <a href="#home" className="link text-white font-bold text-2xl tracking-tighter hover:opacity-80 transition-opacity" style={{ fontStyle: 'italic', letterSpacing: '-0.08em' }}>
+          SL<span className="text-gradient">.</span>
         </a>
         <nav className={`outer-menu ${menuVisible ? "menu-visible" : ""}`}>
           <button
