@@ -150,7 +150,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Product Owner Intern — Louis Vuitton",
+    title: "Product Owner Intern — Louis Vuitton (Sep 2025 – Present)",
     size: ItemSize.SMALL,
     subtitle:
       "Product ownership at LVMH's flagship maison in Paris. Defining product roadmap, writing user stories, coordinating with dev teams, designers, and stakeholders. Managing sprint planning and backlog prioritization across cross-functional squads.",
@@ -159,7 +159,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Freelance Developer — XRPL Commons",
+    title: "Freelance Developer — XRPL Commons (Oct 2024 – Aug 2025)",
     size: ItemSize.SMALL,
     subtitle:
       "Full-stack development for a blockchain organization. Built and shipped production features using Nuxt.js, Vue.js, and the XRP Ledger. Handled the full lifecycle: architecture, development, testing, deployment, and performance optimization.",
@@ -168,7 +168,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Software Engineering Intern — XRPL Commons",
+    title: "Software Engineering Intern — XRPL Commons (Jun – Jul 2024)",
     size: ItemSize.SMALL,
     subtitle:
       "Built a full-stack educational platform from scratch with Nuxt.js, MongoDB, and Vue.js. Integrated XRP Ledger for Web3 features. Implemented secure user authentication and role-based access. Shipped to production within 2 months.",
@@ -177,7 +177,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "President — Kryptosphere IMT Paris",
+    title: "President — Kryptosphere IMT Paris (Jan 2024 – Jan 2025)",
     size: ItemSize.SMALL,
     subtitle:
       "Led a team of 30+ members in Europe's largest student tech association (+800 members across campuses). Organized weekly workshops on AI, blockchain, and finance. Launched inter-campus collaborations and secured strategic partnerships with companies.",
@@ -186,7 +186,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "HAKS Hackathon Organizer",
+    title: "HAKS Hackathon Organizer (Sep 2023 – May 2024)",
     size: ItemSize.SMALL,
     subtitle:
       "Organized a Web3 hackathon from the ground up — secured sponsors, managed partnerships, coordinated 9 student organizers, and ran technical workshops during the event.",
@@ -203,7 +203,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Swarm Rescue Challenge — IP Paris / DGA",
+    title: "Swarm Rescue Challenge — IP Paris / DGA (Nov 2024 – May 2025)",
     size: ItemSize.SMALL,
     subtitle:
       "Built an autonomous drone swarm system for exploration, mapping, and rescue. Implemented RRT path planning and multi-agent coordination via state machines. Ranked 10th out of 50+ teams from France and India.",
@@ -212,7 +212,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Winner — Hi! PARIS Data Science Hackathon",
+    title: "Winner — Hi! PARIS Data Science Hackathon (2024)",
     size: ItemSize.SMALL,
     subtitle:
       "Won the 4th edition of the Hi! PARIS hackathon, competing against teams from top French engineering schools.",
@@ -221,7 +221,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "NASA Space Apps Challenge 2024",
+    title: "NASA Space Apps Challenge (Oct 2024)",
     size: ItemSize.SMALL,
     subtitle:
       "Built a seismic event detection system for planetary data. Filtered noise from Mars InSight and Apollo seismic data using FFT. Trained an ML model on spectrograms to detect moonquakes and marsquakes.",
@@ -238,19 +238,19 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "TELECOM SudParis — Institut Polytechnique de Paris",
+    title: "TELECOM SudParis — Institut Polytechnique de Paris (2023 – 2026)",
     size: ItemSize.SMALL,
     subtitle:
-      "Engineering degree (2023–2026). Systems programming, computer networks, distributed systems, probability theory, and project management. Part of the Institut Polytechnique de Paris alongside Ecole Polytechnique and ENSTA.",
+      "Engineering degree. Systems programming, computer networks, distributed systems, probability theory, and project management. Part of the Institut Polytechnique de Paris alongside Ecole Polytechnique and ENSTA.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Classes Préparatoires MPSI-MP — Lycée Camille Jullian",
+    title: "Classes Préparatoires MPSI-MP — Lycée Camille Jullian (2021 – 2023)",
     size: ItemSize.SMALL,
     subtitle:
-      "Two-year intensive preparatory program (2021–2023) in Bordeaux. Advanced mathematics, computer science, physics, and philosophy. Competitive entrance to top French engineering schools.",
+      "Two-year intensive preparatory program in Bordeaux. Advanced mathematics, computer science, physics, and philosophy. Competitive entrance to top French engineering schools.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
