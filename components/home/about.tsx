@@ -36,7 +36,8 @@ const AboutSection = () => {
     >
       <p className="text-2xl md:text-3xl font-medium text-gray-300 max-w-3xl leading-relaxed">
         TELECOM SudParis graduate, currently Product Owner at Louis Vuitton.
-        I build and ship full-stack products — from AI platforms to blockchain protocols to robotics.
+        I build and ship full-stack products by orchestrating AI agent teams —
+        from SaaS platforms to blockchain protocols, shipped at startup speed.
       </p>
     </section>
   );

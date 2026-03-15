@@ -53,7 +53,7 @@ export const PROJECTS: IProject[] = [
     name: "Meridiane",
     image: "/projects/meridiane.svg",
     blurImage: "/projects/blur/meridiane-blur.svg",
-    description: "AI-powered SaaS helping international students in France. Shipped from scratch to production in 5 days. Live at meridiane.fr",
+    description: "Full SaaS built solo in 5 days by orchestrating AI agent teams. Knowledge graph, AI chatbot, payments. Live at meridiane.fr",
     gradient: ["#1a365d", "#2b6cb0"],
     url: "https://meridiane.fr",
     tech: ["react", "typescript", "python"],
@@ -162,7 +162,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Meridiane — Founder & Solo Builder (2025 – Present)",
     size: ItemSize.SMALL,
     subtitle:
-      "Founded and built meridiane.fr from scratch — an AI-powered platform helping international students navigate French administrative procedures. Knowledge graph, AI chatbot, document verification, Stripe billing. Shipped to production in 5 days with paying users. React, TypeScript, Supabase, Python.",
+      "Founded and shipped meridiane.fr in 5 days — solo, by orchestrating specialized AI agent teams via Claude Code. Managed 20+ subagents across frontend, backend, SEO, security pentesting, and infrastructure. Knowledge graph (GraphRAG), AI chatbot, document verification, Stripe billing. Full context engineering and agentic workflow orchestration from architecture to production. Live with paying users.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -224,7 +224,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Paris Innov'Hack — Bistro Table AI (Jan 2026)",
     size: ItemSize.SMALL,
     subtitle:
-      "Built a platform that lets restaurants showcase their menu using interactive 3D animations — customers scan a QR code and browse dishes in 3D before ordering. AI generates dish descriptions and nutritional info from photos. TypeScript, React, Three.js, Supabase. Built from scratch in 10 hours.",
+      "Built a 3D AI menu platform for restaurants in 10 hours using agentic AI orchestration. Customers scan a QR code, browse dishes in interactive 3D, get AI-generated descriptions and nutritional info. Entire product architected and shipped by coordinating Claude Code agent workflows — from Three.js rendering to Supabase backend to AI integration.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -242,7 +242,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Paris AI Hackathon @ Station F — Endexa (Nov 2025)",
     size: ItemSize.SMALL,
     subtitle:
-      "Built Endexa at Station F — a GEO (Generative Engine Optimization) analytics platform. Analyzes how well websites are represented by AI models like ChatGPT, Claude, Perplexity, and Gemini. Scores websites 0-100 across 61 criteria with actionable recommendations. Python + FastAPI backend, React frontend, Redis caching. Built and demoed in one day.",
+      "Built Endexa at Station F in one day — a GEO analytics platform that scores websites for AI discoverability across ChatGPT, Claude, Perplexity, and Gemini. 61 scoring criteria with actionable recommendations. Shipped by orchestrating parallel AI agent teams handling backend (FastAPI, Redis), frontend (React), and data pipeline simultaneously.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
