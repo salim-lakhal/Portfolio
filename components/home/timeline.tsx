@@ -160,13 +160,13 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
 
     const titleSizeClass = size === ItemSize.LARGE ? "text-4xl sm:text-6xl" : "text-lg sm:text-2xl";
     const logoString = image
-      ? `<img src='${image}' class='h-8 mb-2' loading='lazy' width='100' height='32' alt='${image}' />`
+      ? `<div class='mb-4'><img src='${image}' class='h-10 sm:h-12 opacity-70' loading='lazy' alt='' style='max-width: 160px; object-fit: contain;' /></div>`
       : "";
     const subtitleString = subtitle
       ? `<p class='text-sm sm:text-xl mt-2 text-gray-200 font-medium tracking-wide'>${subtitle}</p>`
       : "";
 
-    return `<foreignObject x=${foreignObjectX} y=${foreignObjectY} width=${foreignObjectWidth} 
+    return `<foreignObject x=${foreignObjectX} y=${foreignObjectY} width=${foreignObjectWidth}
         height=${separation}>${logoString}<p class='${titleSizeClass}'>${title}</p>${subtitleString}</foreignObject>`;
   };
 
