@@ -80,9 +80,10 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
 
     const { matches } = window.matchMedia(NO_MOTION_PREFERENCE_QUERY);
 
-    sethorizontalAnimationEnabled(matches);
+    const isWideEnough = window.innerWidth >= 768;
+    sethorizontalAnimationEnabled(isWideEnough && matches);
 
-    if (matches) {
+    if (isWideEnough && matches) {
       [projectsTimeline, projectsScrollTrigger] = initProjectsAnimation(
         targetSectionRef,
         sectionTitleElementRef

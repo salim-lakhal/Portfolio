@@ -220,6 +220,11 @@ a {
   display: none;
 }
 
+.project-wrapper {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
 .skill {
   padding-right: 1.25rem !important;
   padding-bottom: 1.25rem !important;
