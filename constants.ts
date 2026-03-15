@@ -168,6 +168,15 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
+    title: "Salesforce B2C Commerce Developer (CCD102) — Certified",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Completed the 4-day B2C Commerce Developer with SFRA training at Louis Vuitton. Salesforce Commerce Cloud certification.",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
     title: "Product Owner Intern — Louis Vuitton (Sep 2025 – Present)",
     size: ItemSize.SMALL,
     subtitle:
