@@ -273,4 +273,4 @@ export interface BranchNode {
   type: NodeTypes.CONVERGE | NodeTypes.DIVERGE;
 }
 
-export const GTAG = "UA-163844688-1";
+export const GTAG = "";
