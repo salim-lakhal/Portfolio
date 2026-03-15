@@ -53,7 +53,7 @@ export const PROJECTS: IProject[] = [
     name: "Meridiane",
     image: "/projects/meridiane.svg",
     blurImage: "/projects/blur/meridiane-blur.svg",
-    description: "Full SaaS shipped in 5 days — GraphRAG knowledge graph, Vision AI doc verification, Stripe billing. Live at meridiane.fr",
+    description: "AI-powered SaaS helping international students in France. Shipped from scratch to production in 5 days. Live at meridiane.fr",
     gradient: ["#1a365d", "#2b6cb0"],
     url: "https://meridiane.fr",
     tech: ["react", "typescript", "python"],
@@ -162,7 +162,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Meridiane — Founder & Solo Builder (2025 – Present)",
     size: ItemSize.SMALL,
     subtitle:
-      "Shipped a full SaaS in 5 days by orchestrating 20+ specialized AI agents via Claude Code. GraphRAG knowledge graph (249 docs, LightRAG, Qdrant), Vision AI document verification (Pixtral), Mistral Small chat pipeline, Stripe subscriptions, 14 Supabase edge functions, i18n, Shannon AI pentesting. React + TypeScript, 26 custom hooks, 40+ components. Live at meridiane.fr with paying users.",
+      "Founded and built meridiane.fr from scratch — an AI-powered platform helping international students navigate French administrative procedures. Knowledge graph, AI chatbot, document verification, Stripe billing. Shipped to production in 5 days with paying users. React, TypeScript, Supabase, Python.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
