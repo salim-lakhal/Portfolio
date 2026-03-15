@@ -35,8 +35,8 @@ const AboutSection = () => {
       ref={targetSection}
     >
       <p className="text-2xl md:text-3xl font-medium text-gray-300 max-w-3xl leading-relaxed">
-        Software engineer based in Paris. I build and ship full-stack products —
-        from AI-powered platforms to blockchain protocols. Currently at Louis Vuitton.
+        TELECOM SudParis graduate, currently Product Owner at Louis Vuitton.
+        I build and ship full-stack products — from AI platforms to blockchain protocols to robotics.
       </p>
     </section>
   );
