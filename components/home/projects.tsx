@@ -10,7 +10,7 @@ const PROJECT_STYLES = {
   SECTION:
     "w-full relative select-none section-container flex-col flex py-8 justify-center",
   PROJECTS_WRAPPER:
-    "tall:mt-12 mt-6 grid grid-flow-col auto-cols-max md:gap-10 gap-6 project-wrapper w-fit seq snap-x scroll-pl-6 snap-mandatory",
+    "tall:mt-12 mt-6 grid grid-flow-col auto-cols-max md:gap-10 gap-6 project-wrapper w-fit seq",
 };
 
 const ProjectsSection = ({ isDesktop }: IDesktop) => {
@@ -47,27 +47,35 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
     sectionTitleElementRef: MutableRefObject<HTMLDivElement>
   ): [GSAPTimeline, ScrollTrigger] => {
     const timeline = gsap.timeline({ defaults: { ease: Linear.easeNone } });
-    const sidePadding =
-      document.body.clientWidth -
-      targetSectionRef.current.querySelector(".inner-container").clientWidth;
-    const elementWidth =
-      sidePadding +
-      targetSectionRef.current.querySelector(".project-wrapper").clientWidth;
-    targetSectionRef.current.style.width = `${elementWidth}px`;
-    const width = window.innerWidth - elementWidth;
-    const duration = `${(elementWidth / window.innerHeight) * 100}%`;
+    const wrapper = targetSectionRef.current.querySelector(".project-wrapper") as HTMLElement;
+    const innerContainer = targetSectionRef.current.querySelector(".inner-container") as HTMLElement;
+
+    const getScrollAmount = () => {
+      return -(wrapper.scrollWidth - window.innerWidth);
+    };
+
+    // Set the section width to the wrapper's full scroll width
+    targetSectionRef.current.style.width = `${wrapper.scrollWidth}px`;
+
     timeline
-      .to(targetSectionRef.current, { x: width })
-      .to(sectionTitleElementRef.current, { x: -width }, "<");
+      .to(targetSectionRef.current, {
+        x: getScrollAmount,
+        ease: "none",
+      })
+      .to(sectionTitleElementRef.current, {
+        x: () => -getScrollAmount(),
+        ease: "none",
+      }, "<");
 
     const scrollTrigger = ScrollTrigger.create({
       trigger: targetSectionRef.current,
       start: "top top",
-      end: duration,
-      scrub: 0,
+      end: () => `+=${wrapper.scrollWidth - window.innerWidth}`,
+      scrub: 1,
       pin: true,
       animation: timeline,
       pinSpacing: "margin",
+      invalidateOnRefresh: true,
       onToggle: (self) => setwillChange(self.isActive),
     });
 
@@ -80,10 +88,9 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
 
     const { matches } = window.matchMedia(NO_MOTION_PREFERENCE_QUERY);
 
-    const isWideEnough = window.innerWidth >= 768;
-    sethorizontalAnimationEnabled(isWideEnough && matches);
+    sethorizontalAnimationEnabled(matches);
 
-    if (isWideEnough && matches) {
+    if (matches) {
       [projectsTimeline, projectsScrollTrigger] = initProjectsAnimation(
         targetSectionRef,
         sectionTitleElementRef
@@ -143,7 +150,7 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
   return (
     <section
       ref={targetSectionRef}
-      className={`${isDesktop && "min-h-screen"} ${PROJECT_STYLES.SECTION}`}
+      className={`min-h-screen ${PROJECT_STYLES.SECTION}`}
       id={projectsSectionRef}
     >
       {renderSectionTitle()}
