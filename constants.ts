@@ -25,10 +25,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I ship products with AI agents",
-  "I build distributed systems",
-  "I design blockchain protocols",
-  "I orchestrate agentic workflows",
+  "I build products that ship",
+  "I solve hard engineering problems",
+  "I scale systems end to end",
+  "I turn ideas into production",
 ];
 
 export const EMAIL = "salim.lakhal@telecom-sudparis.eu";
