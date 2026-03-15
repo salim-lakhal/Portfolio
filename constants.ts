@@ -224,7 +224,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Paris Innov'Hack — Bistro Table AI (Jan 2026)",
     size: ItemSize.SMALL,
     subtitle:
-      "Built an AI-powered 3D menu platform for restaurants in 10 hours. Interactive 3D food visualization with animated presentations. TypeScript, React, Supabase.",
+      "Built a platform that lets restaurants showcase their menu using interactive 3D animations — customers scan a QR code and browse dishes in 3D before ordering. AI generates dish descriptions and nutritional info from photos. TypeScript, React, Three.js, Supabase. Built from scratch in 10 hours.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -233,7 +233,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "AMD Open Robotics Hackathon — Paris (Dec 2025)",
     size: ItemSize.SMALL,
     subtitle:
-      "Trained SO-101 robots to perform useful manual tasks using Hugging Face LeRobot and SmolVLA models on AMD Ryzen AI hardware. Built practical automation use cases for real-world manipulation problems. Sponsored by AMD, Hugging Face, and Data Monsters.",
+      "3-day hackathon with AMD and Hugging Face. Trained SO-101 robotic arms to automate manual tasks using the LeRobot framework and SmolVLA vision-language-action models. Collected training data, fine-tuned policies on AMD Ryzen AI laptops and MI300X GPUs, deployed on physical robots. $10K prize pool, teams of 4.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -242,7 +242,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Paris AI Hackathon @ Station F — Endexa (Nov 2025)",
     size: ItemSize.SMALL,
     subtitle:
-      "Built Endexa, a Generative Engine Optimization platform that scores websites 0-100 across 61 criteria for AI discoverability (ChatGPT, Claude, Perplexity, Gemini). Python backend, React frontend. Built at Station F in one day.",
+      "Built Endexa at Station F — a GEO (Generative Engine Optimization) analytics platform. Analyzes how well websites are represented by AI models like ChatGPT, Claude, Perplexity, and Gemini. Scores websites 0-100 across 61 criteria with actionable recommendations. Python + FastAPI backend, React frontend, Redis caching. Built and demoed in one day. €10K prize pool.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -260,7 +260,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Winner — Hi! PARIS Data Science Hackathon (2024)",
     size: ItemSize.SMALL,
     subtitle:
-      "Won the 4th edition of the Hi! PARIS hackathon, competing against teams from top French engineering schools.",
+      "Won the 4th edition of the Hi! PARIS data science hackathon. Competing against teams from Polytechnique, HEC, ENSAE, and other top French schools. Hi! PARIS is a joint research center between HEC Paris and Institut Polytechnique de Paris.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
