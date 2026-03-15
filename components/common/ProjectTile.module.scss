@@ -1,10 +1,15 @@
 
 .ProjectTile {
-  height: 22rem;
-  width: 38rem;
+  height: 20rem;
+  width: 85vw;
   background: black;
   transform-style: preserve-3d;
   transform: perspective(1000px);
+
+  @media (min-width: 640px) {
+    width: 38rem;
+    height: 22rem;
+  }
 
   @media (min-width: 768px) {
     height: 26rem;
@@ -18,15 +23,20 @@
 .ProjectImg {
   @apply absolute top-0 rounded-xl shadow-xl;
 
-  width: 16.8rem !important;
-  transform: rotate(-22.5deg);
-  height: unset !important;
-  min-width: unset !important;
-  max-height: unset !important;
-  object-fit: contain !important;
-  left: unset !important;
-  right: 2rem !important;
-  bottom: unset !important;
+  display: none;
+
+  @media (min-width: 640px) {
+    display: block;
+    width: 16.8rem !important;
+    transform: rotate(-22.5deg);
+    height: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    object-fit: contain !important;
+    left: unset !important;
+    right: 2rem !important;
+    bottom: unset !important;
+  }
 }
 
 .techIcons {

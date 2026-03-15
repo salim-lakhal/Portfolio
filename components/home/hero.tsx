@@ -68,7 +68,7 @@ const HeroSection = React.memo(() => {
   const renderHeroContent = (): React.ReactNode => (
     <div className={HERO_STYLES.CONTENT}>
       <div className="md:mb-6 mb-4">
-        <h1 className="text-5xl md:text-7xl font-bold seq">Salim Lakhal</h1>
+        <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold seq">Salim Lakhal</h1>
       </div>
       <p className="mb-8">
         <span className={HERO_STYLES.TYPED_SPAN} ref={typedSpanElement}></span>
