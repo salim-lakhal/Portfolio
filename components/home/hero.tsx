@@ -72,8 +72,11 @@ const HeroSection = React.memo(() => {
       <div className="md:mb-6 mb-4">
         <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold seq">Salim Lakhal</h1>
       </div>
-      <p className="mb-8">
+      <p className="mb-4">
         <span className={HERO_STYLES.TYPED_SPAN} ref={typedSpanElement}></span>
+      </p>
+      <p className="text-sm sm:text-base text-gray-400 seq mb-8">
+        Looking for a full-time position in software engineering, product, or AI — open to any location.
       </p>
       <div className="flex seq mb-8">{renderSocialLinks()}</div>
       <div className="flex seq">
