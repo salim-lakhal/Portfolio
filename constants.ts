@@ -207,7 +207,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "HAKS Hackathon Organizer (Sep 2023 – May 2024)",
     size: ItemSize.SMALL,
     subtitle:
-      "Organized a Web3 hackathon from the ground up — secured sponsors, managed partnerships, coordinated 9 student organizers, and ran technical workshops during the event.",
+      "Organized a Web3 hackathon from the ground up — sponsored by XRPL Commons with an 8K prize pool. Secured sponsors, managed partnerships, coordinated 9 student organizers, and ran technical workshops during the event.",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
